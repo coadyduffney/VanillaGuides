@@ -1,0 +1,85 @@
+@import url("hover-min.css");
+
+body {
+    margin-bottom: 50px;
+}
+
+main {
+    margin-top: 25px;
+}
+
+.classBtn {
+    border-radius: 20%;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.inactive {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    cursor: not-allowed;
+}
+
+.druidActive {
+    border: 3px solid #FF7D0A;
+}
+
+.hunterActive {
+    border: 3px solid #ABD473;
+}
+
+.mageColor {
+    /* border: 3px solid #69CCF0; */
+    color: #69CCF0;
+}
+
+.paladinActive {
+    border: 3px solid #F58CBA;
+}
+
+.priestActive {
+    border: 3px solid #FFFFFF;
+}
+
+.rogueActive {
+    border: 3px solid #FFF569;
+}
+
+.shamanActive {
+    border: 3px solid #0070DE;
+}
+
+.warlock {
+    color: #9482C9;
+}
+
+.warriorActive {
+    border: 3px solid #C79C6E;
+}
+
+.common {
+    color: #1eff00 !important;
+}
+
+.rare {
+    color: #0070dd !important;
+}
+
+.epic {
+    color: #a335ee !important;
+}
+
+.no-bullets {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.socialIcons {
+    margin-right: 25px;
+}
+
+.socialIcons a {
+    font-size: 1.5rem;
+    margin: 5px
+}
